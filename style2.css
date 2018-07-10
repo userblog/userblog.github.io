@@ -1,11 +1,18 @@
 body {
 	background-color: rgb(250, 250, 250);
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Istok Web', 'Raleway', sans-serif;
 	}
 * {box-sixing: border-box;}
+
+h1 {font-size: 2em; font-weight: bold;}
+h2 {font-size: 1.5em; font-weight: bold;}
+h3 {font-size: 1.17em; font-weight: bold;}
+h4 {font-size: 1em; font-weight: bold;}
+h5 {font-size: .83em; font-weight: bold;}
+h6 {font-size: .67em; font-weight: bold;}
+
 a {
 	text-decoration: none;
-	
 	}
 a:link, a:visited {
 	color: #00cc99;
@@ -43,7 +50,7 @@ header {
 	border: 1px solid #333333;
 	height: 1.5em;
 	box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Istok Web', sans-serif;
 	}
 .search-pole:enabled {
 	background: rgba(51,51,51,0.9);
@@ -71,14 +78,13 @@ input[type='checkbox'] {
 /*CONTENT*/
 .main {
 	text-align: center;
-    width: 960px;
+    /*width: 960px;*/
     margin-top: 3em;
     margin-left: auto;
     margin-right: auto
 	}
 .content {
 	display: inline-block;
-	
 	width: 60.215053763440862%;
 	vertical-align: top;
 	height: auto;
@@ -92,45 +98,35 @@ input[type='checkbox'] {
 	border: 1px solid rgb(250,250,250);
 	box-shadow: 0 0 5px  rgba(0,0,0,0.1);
 	}
-.logo-text {
-	display: inline-block;
-	border-bottom: 1px dashed #999999;
-	height: 4.5em;
-	width: 100%;
-	padding-left: 1.5em;
-	padding-top: 1.7em;
-	box-sizing: border-box;
-	font-size: 1.2em;
-	}
 .post {
 	padding: 1.5em;
 	padding-top: 1.5em;
 	}
 .post h1 {
-	font-size: 1.7em;
+	
 	}
 .date { 
 	padding-top: 1em;
-	font-size: .8em;
-	font-weight: bolder;
+	font-size: .7em;
+	font-weight: bold;
 	color: #666666;
 	}
 .text {
 	padding-top: 1em;
-	line-height: 1.2em;
+	line-height: 1.4em;
 	color: #666666;
-	font-size: 14px;
+	font-size: 1em;
 	}
 .read-more {
 	padding-top: 1em;
 	font-weight: bolder;
-	font-size: .8em;
+	font-size: .7em;
 	}
 .sidebar {
 	display: inline-block;
 	
 	width: 24.731182795698925%;
-	height: 300px;
+	height: auto;
 	margin-top: 1em;
 	vertical-align: top;
 	background-color: #ffffff;
@@ -145,12 +141,46 @@ input[type='checkbox'] {
 	padding-top: 1em;
 	}
 .my-name h1 {
-	font-size: 1.3em;
+	
 	}
 .my-job {
-	font-size: .8em;
-	padding-top: .7em;
+	font-size: .85em;
+	padding-top: 1em;
 	color: #666666;
+	}
+.social-block {
+	border-top: 1px dashed #cccccc;
+    margin-top: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+	}
+.social-btn {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	border-radius: 2em;
+	margin: auto;
+	line-height: 2.25em;
+	}
+.git {
+	background: #cccccc;
+	border: 1px solid #cccccc;
+	font-size: 1.25em;
+	}
+.fb {
+	background: #3b5998;
+	border: 1px solid #3b5998;
+	font-size: 1.25em;
+	}
+.vk {
+	background: #507299;
+	border: 1px solid #5d84ae;
+	font-size: 1.25em;
+	}
+.telegram {
+	background: #249bd7;
+	border: 1px solid #249bd7;
+	font-size: 1.25em;
 	}
 @media screen and (max-width: 979px) {
     .nav-link {
@@ -224,11 +254,9 @@ input[type='checkbox'] {
 	.content__post {
 		margin-left: 0;
 		}
-	.logo-text {
-		display: none;
-		}
+	
 	.text {
-		font-size: 1.2em;
+		font-size: 1em;
 		}
 }
 	
@@ -304,11 +332,9 @@ input[type='checkbox'] {
 	.content__post {
 		margin-left: 0;
 		}
-	.logo-text {
-		display: none;
-		}
 	.text {
-		font-size: 1.2em;
+		font-size: 1em;
+		
 		}
 }
  
