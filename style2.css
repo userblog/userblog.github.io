@@ -162,7 +162,7 @@ input[type='checkbox'] {
 	margin: auto;
 	line-height: 2.25em;
 	}
-.social-btn__link:link, .social-btn__link:visited 
+.social-btn__link:link, .social-btn__link:visited {
     color: #000000;
 }
 .git {
