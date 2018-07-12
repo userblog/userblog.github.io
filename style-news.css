@@ -1,15 +1,16 @@
 *{box-sizing: border-box;}
-html, body, .wrapper, .main { 
-	height: 110%;
+html, body, .wrapper {
+	height: 100vh;
 	}
 .line {
 	display: inline-block;
 	posihion: absolute;
 	width: 0.1em;
-	height: 110%;
+	height: 10em;
 	border: 1px solid #00cc99;
 	background-color: #00cc99;
 	margin-top: -3em;
+	margi-bottom: 3em;
 	box-shadow: 0 0 5px rgba(0,0,0,0.1);
 	}
 	
@@ -17,17 +18,21 @@ html, body, .wrapper, .main {
 	display: inline-block;
 	width: 85%;
 	vertical-align: top;
+	min-height: 100vh;
 	height: auto;
 	margin-top: 2em;
 	}
 .content {
+	border-left: .1em solid #00cc99;
+	border-bottom: .1em solid #00cc99;
 	display: inline-block;
 	width: 75%;
 	float: left;
-	margin-left: -.55em;
+	margin-left: -.45em;
 	min-height: 200px;
 	height: auto;
-	margin-bottom: 2em;
+	padding-bottom: 2em;
+	padding-top: 2em;
 	}
 .post_news {
 	display: inline-block;
@@ -35,20 +40,11 @@ html, body, .wrapper, .main {
 	width: 85%;
 	min-height: 120px;
 	height: auto;
-	float: right;
+	
 	box-shadow: 0 0 5px rgba(0,0,0,0.1);
 	background-color: #ffffff;
 	}
-.horizont-line {
-	display: inline-block;
-	width: 15%;
-	height: .1em;
-	border: 1px solid #00cc99;
-	box-shadow: 0 0 5px rgba(0,0,0,0.1);
-	margin-top: 5%;
-	background-color: #00cc99;
-	padding-left: .1em;
-	}
+
 .tochka {
 	display: inline-block;
 	width: 1.5em;
@@ -58,8 +54,8 @@ html, body, .wrapper, .main {
 	border-radius: 1em;
 	background-color: rgb(255,255,255);
 	box-shadow: 0 0 5px rgba(0,0,0,0.1);
-	margin-top: -.75em;
-	margin-left: -.75em;
+	
+	margin-left: -.85em;
 	}
 
 .text_news {
@@ -82,6 +78,18 @@ html, body, .wrapper, .main {
 	font-size: .6em;
 	}
 	
+.footer {
+	display: block;
+	border: 1px solid #dddddd;
+	height: 6em;
+	background-color: #eeeeee;
+	bottom: 0;
+	}
+.footer_text {
+	margin-top: 2.5em;
+	text-align: center;
+	color: #aaaaaa;
+	}
 @media screen and (max-width : 500px) {
 	.content__content {
 		.width: 100%;
